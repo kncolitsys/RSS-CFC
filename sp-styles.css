@@ -1,0 +1,78 @@
+
+/* set the page background color and margins. */
+body {
+	margin: 20px;
+	background: #ffffff;
+}
+
+/* set the page font formatting. */
+body, p, div, td {
+	font-family: Trebuchet, verdana, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+	text-align: center;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* set all images to zero borders */
+img {
+	border: 0px;
+}
+
+#container {
+	position: relative;
+	width: 630px;
+	height: 517px;
+	margin: 0 auto;
+	border: 1px solid #000000;
+	background: #dddddd;
+}
+
+	#galleries {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		width: 225px;
+		height: 480px;
+		overflow: auto;
+		border: 1px solid #000000;
+		background: #ffffff;
+	}
+
+		#galleries .gallery {
+			border-bottom: 1px solid #000000;
+			padding: 10px 0;
+		}
+
+	#album {
+		position: absolute;
+		top: 10px;
+		left: 245px;
+		width: 375px;
+		height: 480px;
+		overflow: auto;
+		border: 1px solid #000000;
+		background: #ffffff;
+	}
+
+		#album .photo {
+			border-bottom: 1px solid #000000;
+			padding: 10px 0;
+		}
+
+			#album .photo div {
+				margin: 10px;
+			}
+
+	#footer {
+		position: absolute;
+		bottom: 0px;
+		left: 10px;
+		width: 610px;
+		height: 18px;
+		font-size: .8em;
+	}

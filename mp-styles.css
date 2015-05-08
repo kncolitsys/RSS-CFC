@@ -1,0 +1,31 @@
+/* set the page background color and margins. */
+body { background: #ffffff; }
+
+/* set the page font formatting. */
+body, p, div, td {font-family: Trebuchet, verdana, sans-serif; font-size: 9pt; color: #000000; }
+
+#galContainer {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#albumContainer {
+	width: 475px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+	table {
+		margin: 0 0 10px 0;
+	}
+
+		td {
+			text-align: left;
+		}
+
+		td img {
+			border:1px solid #5C7FB9;
+			float: left;
+			margin: 0 10px 0 0;
+		}
